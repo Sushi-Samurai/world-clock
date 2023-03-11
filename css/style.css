@@ -8,6 +8,14 @@ h1 {
   font-size: 36px;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
 h2 {
   margin: 0 0 5px;
   font-size: 28px;
