@@ -1,5 +1,8 @@
 body {
-  background-color: #f9f7fe;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/070/922/original/globe.jpg?1678517086)
+    no-repeat center;
+  background-color: rgb(228, 255, 230);
+  background-size: cover;
   font-family: sans-serif;
 }
 

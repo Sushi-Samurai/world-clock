@@ -45,7 +45,18 @@ function updateCity(event) {
         </div>
         <a href="/">All cities</a>
         `;
+  setTimeout(() => {
+    updateCity(event);
+    updateTime();
+  }, 1000);
+
+  if (cityTimezone === "refresh") {
+    window.location.reload();
+  }
 }
+
+updateTime();
+setInterval(updateTime, 1000);
 
 let citiesSelectElement = document.querySelector("#city");
 citiesSelectElement.addEventListener("change", updateCity);
