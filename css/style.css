@@ -8,11 +8,11 @@ h1 {
   font-size: 36px;
 }
 
-a:link {
+a.logo:link {
   text-decoration: none;
 }
 
-a:visited {
+a.logo:visited {
   color: inherit;
 }
 
