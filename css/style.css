@@ -1,8 +1,10 @@
 body {
-  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/070/922/original/globe.jpg?1678517086)
-    no-repeat center;
-  background-color: rgb(228, 255, 230);
-  background-size: cover;
+  background: linear-gradient(
+    180.3deg,
+    rgb(221, 221, 221) 5.5%,
+    rgb(110, 136, 161) 90.2%
+  );
+  background-attachment: fixed;
   font-family: sans-serif;
 }
 
