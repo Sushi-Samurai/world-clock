@@ -37,6 +37,7 @@ select {
 .container {
   max-width: 600px;
   margin: 60px auto;
+  margin-top: 150px;
   background: white;
   opacity: 0.8;
   padding: 60px;
